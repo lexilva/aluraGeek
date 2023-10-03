@@ -1,6 +1,5 @@
 *{
     box-sizing: border-box;
-    background-color:#ffffff;
     top: 457px;
     left: 3309px;
     padding: 0px, 0px, 0px, 0px;
@@ -33,10 +32,18 @@
     margin-left: 70px;
 }
 .banner{
+    display: flex;
+    flex-flow: column;
+    justify-content: flex-end;
     width: 100%;
+    height: 352px;
+    background-image: url("/assets/img/banner-image.png");
+    color: #ffffff;
 }
-.banner-image{
-    width: 100%;
+.bannerTexto{
+    width:1,136px;
+    height:230px;
+
 }
 .btnlogin {
     display:flex;
@@ -48,4 +55,21 @@
     justify-content: center;
     width: 180px;
 }
+h1{
+    font-family: Raleway;
+    font-weight: 700;
+    line-height: 61px;
+    letter-spacing: 0em;
+    text-align: left;
+    font-size: 52px;
+}
+p{
+    font-family: Raleway;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+   
 
+}
